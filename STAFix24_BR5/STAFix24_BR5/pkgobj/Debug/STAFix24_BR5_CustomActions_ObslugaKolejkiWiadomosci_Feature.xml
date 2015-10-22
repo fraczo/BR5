@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="STAFix24_BR5 CA Obsługa kolejki wiadomości" Id="cc286d79-9132-488e-b333-ec2b8e6db559" Scope="Web">
+  <ElementManifests>
+    <ElementManifest Location="ObslugaKolejkiWiadomosci\Elements.xml" />
+  </ElementManifests>
+</Feature>

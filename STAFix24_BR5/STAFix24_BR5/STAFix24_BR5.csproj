@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AA4C79FD-6B0C-4AB3-8DDB-C00C0AA8B74C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BR5</RootNamespace>
+    <AssemblyName>STAFix24.BR5</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CustomActions\AkcjeWitrynyMenu\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{38af4049-052e-4ec2-859a-bf8371d30740}</SharePointProjectItemId>
+    </None>
+    <None Include="CustomActions\ObslugaKolejkiWiadomosci\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ffa7a45f-d211-4963-a26c-726cdc74b90e}</SharePointProjectItemId>
+    </None>
+    <None Include="CustomActions\GenerujFormatkiRozliczeniowe\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{03bbfeac-ebcd-4bf7-bc9d-8c9aeb6f24df}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\CustomActions_ObslugaKolejkiWiadomosci\CustomActions_ObslugaKolejkiWiadomosci.feature">
+      <FeatureId>{fbf4ffae-3f80-4b17-8748-f5690694b092}</FeatureId>
+    </None>
+    <None Include="Features\CustomActions_GenerowanieFormatekRozliczeniowych\CustomActions_GenerowanieFormatekRozliczeniowych.feature">
+      <FeatureId>{49171c57-21bb-4351-a88b-f27faf5640a3}</FeatureId>
+    </None>
+    <None Include="Features\CustomActions_AkcjeWitryny\CustomActions_AkcjeWitryny.feature">
+      <FeatureId>{8183220f-29b6-47c0-b258-243fcdc3de25}</FeatureId>
+    </None>
+    <None Include="Features\Workflows_ZatwirdzanieZadan\Workflows_ZatwirdzanieZadan.feature">
+      <FeatureId>{d69c4c2e-fe9a-4dd6-85f4-595eae1a5c4e}</FeatureId>
+    </None>
+    <None Include="Features\Workflows_ObslugaWiadomosci\Workflows_ObslugaWiadomosci.feature">
+      <FeatureId>{c2f3ff30-af72-48de-a9c5-4dfdca592a6e}</FeatureId>
+    </None>
+    <None Include="Features\EventReceivers\EventReceivers.feature">
+      <FeatureId>{9ef1ce9f-6f7d-4505-a24b-24f5e8672b2d}</FeatureId>
+    </None>
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{348bef8e-f411-4079-adeb-8646bc1f082e}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9cdaf123-6239-4db2-ad9c-e13458fa951d}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{1e96213e-4c6f-48a5-afd2-106a06e268a8}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="pkg\SiteAssets\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c9cb0a61-553b-4fe1-b25f-8cd2fc955a1a}</SharePointProjectItemId>
+    </None>
+    <Content Include="CustomActions\AkcjeWitrynyMenu\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Features\CustomActions_AkcjeWitryny\CustomActions_AkcjeWitryny.Template.xml">
+      <DependentUpon>CustomActions_AkcjeWitryny.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Workflows_ZatwirdzanieZadan\Workflows_ZatwirdzanieZadan.Template.xml">
+      <DependentUpon>Workflows_ZatwirdzanieZadan.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Workflows_ObslugaWiadomosci\Workflows_ObslugaWiadomosci.Template.xml">
+      <DependentUpon>Workflows_ObslugaWiadomosci.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\EventReceivers\EventReceivers.Template.xml">
+      <DependentUpon>EventReceivers.feature</DependentUpon>
+    </Content>
+    <Content Include="pkg\SiteAssets\Templates\DW-Podatek.pdf" />
+    <Content Include="pkg\SiteAssets\Templates\DW-Przelew-color.pdf" />
+    <Content Include="pkg\SiteAssets\Templates\DW-Przelew.pdf" />
+    <Content Include="pkg\SiteAssets\Templates\DW-ZUS.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Layouts\STAFix24_BR5\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CustomActions\ObslugaKolejkiWiadomosci\Elements.xml" />
+    <Content Include="CustomActions\GenerujFormatkiRozliczeniowe\Elements.xml" />
+    <Content Include="Features\CustomActions_ObslugaKolejkiWiadomosci\CustomActions_ObslugaKolejkiWiadomosci.Template.xml">
+      <DependentUpon>CustomActions_ObslugaKolejkiWiadomosci.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\CustomActions_GenerowanieFormatekRozliczeniowych\CustomActions_GenerowanieFormatekRozliczeniowych.Template.xml">
+      <DependentUpon>CustomActions_GenerowanieFormatekRozliczeniowych.feature</DependentUpon>
+    </Content>
+    <Content Include="Images\STAFix24_BR5\SETTINGS.GIF" />
+    <Content Include="Images\STAFix24_BR5\SETTINGS16.GIF" />
+    <Content Include="Images\STAFix24_BR5\SETTINGS32.GIF" />
+    <Content Include="pkg\SiteAssets\Elements.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
+</Project>

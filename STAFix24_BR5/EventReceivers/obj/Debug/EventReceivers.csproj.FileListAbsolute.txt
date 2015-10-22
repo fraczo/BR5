@@ -1,0 +1,10 @@
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\EventReceivers\bin\Debug\BRMagda.EventReceivers.dll
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\EventReceivers\obj\Debug\BRMagda.EventReceivers.dll
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\EventReceivers\obj\Debug\EventReceivers.csprojResolveAssemblyReference.cache
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\EventReceivers\bin\Debug\BRMagda.EventReceivers.pdb
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\EventReceivers\obj\Debug\BRMagda.EventReceivers.pdb
+C:\_GitHub\BR5\STAFix24_BR5\EventReceivers\obj\Debug\EventReceivers.csprojResolveAssemblyReference.cache
+C:\_GitHub\BR5\STAFix24_BR5\EventReceivers\bin\Debug\STAFix24.BR5.EventReceivers.dll
+C:\_GitHub\BR5\STAFix24_BR5\EventReceivers\bin\Debug\STAFix24.BR5.EventReceivers.pdb
+C:\_GitHub\BR5\STAFix24_BR5\EventReceivers\obj\Debug\STAFix24.BR5.EventReceivers.dll
+C:\_GitHub\BR5\STAFix24_BR5\EventReceivers\obj\Debug\STAFix24.BR5.EventReceivers.pdb

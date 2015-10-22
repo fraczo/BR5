@@ -1,0 +1,5 @@
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\GeneratorDrukow\bin\Release\BRMagda.GeneratorDrukow.dll
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\GeneratorDrukow\bin\Release\BRMagda.GeneratorDrukow.pdb
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\GeneratorDrukow\obj\Release\GeneratorDrukow.csprojResolveAssemblyReference.cache
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\GeneratorDrukow\obj\Release\BRMagda.GeneratorDrukow.dll
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\GeneratorDrukow\obj\Release\BRMagda.GeneratorDrukow.pdb

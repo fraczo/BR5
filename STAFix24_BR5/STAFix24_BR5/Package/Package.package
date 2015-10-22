@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="1e96213e-4c6f-48a5-afd2-106a06e268a8" solutionId="1e96213e-4c6f-48a5-afd2-106a06e268a8" resetWebServer="false" name="STAFix24_BR5" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="STAFix24.BR5.BLL.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\BLL\BLL.csproj" />
+    <projectOutputAssembly location="STAFix24.BR5.PdfSharp.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\PdfSharp\PdfSharp.csproj" />
+    <projectOutputAssembly location="STAFix24.BR5.GeneratorDrukow.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\GeneratorDrukow\GeneratorDrukow.csproj" />
+    <projectOutputAssembly location="STAFix24.BR5.DAL.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\DAL\DAL.csproj" />
+  </assemblies>
+  <features>
+    <featureReference itemId="fbf4ffae-3f80-4b17-8748-f5690694b092" />
+    <featureReference itemId="49171c57-21bb-4351-a88b-f27faf5640a3" />
+    <featureReference itemId="c2f3ff30-af72-48de-a9c5-4dfdca592a6e" />
+    <featureReference itemId="9ef1ce9f-6f7d-4505-a24b-24f5e8672b2d" />
+    <featureReference itemId="d69c4c2e-fe9a-4dd6-85f4-595eae1a5c4e" />
+    <featureReference itemId="8183220f-29b6-47c0-b258-243fcdc3de25" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="348bef8e-f411-4079-adeb-8646bc1f082e" />
+    <projectItemReference itemId="9cdaf123-6239-4db2-ad9c-e13458fa951d" />
+  </projectItems>
+</package>

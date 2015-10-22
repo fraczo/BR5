@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Description="Uruchamia proces obsługi wiadomości oczekujących w buforze"
+          Id="81EE5F02-F18B-443C-BB8A-B3062A0DA217"
+          GroupId="SiteActions"
+          ImageUrl="/_layouts/images/Settings.gif"
+          Location="Microsoft.SharePoint.StandardMenu"
+          Sequence="505"
+          Title="Wyślij oczekujące wiadomości" >
+    <UrlAction Url="~site/Lists/admProcessRequests/NewForm.aspx?ContentTypeId=0x010012C56DEF8E3B1A45B66E8FB2ED3FFC13004A6B5687CE018340ACD25ADD6680C511008473491BA4FEA645B1AE28ECD30A52FE"/>
+  </CustomAction>
+</Elements>

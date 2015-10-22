@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="36270ecd-bca4-47c9-b205-7870ccdc6991" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="BRMagda.Workflows.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+</Solution>

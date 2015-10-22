@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="c07b991e-a40c-4261-907f-e8e07f0d518b" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="BRMagda.TimerJobs.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+</Solution>

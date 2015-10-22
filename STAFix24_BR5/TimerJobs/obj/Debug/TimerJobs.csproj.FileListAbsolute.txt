@@ -1,0 +1,10 @@
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\TimerJobs\bin\Debug\BRMagda.TimerJobs.dll
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\TimerJobs\bin\Debug\BRMagda.TimerJobs.pdb
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\TimerJobs\obj\Debug\BRMagda.TimerJobs.dll
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\TimerJobs\obj\Debug\BRMagda.TimerJobs.pdb
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\TimerJobs\obj\Debug\TimerJobs.csprojResolveAssemblyReference.cache
+C:\_GitHub\BR5\STAFix24_BR5\TimerJobs\obj\Debug\TimerJobs.csprojResolveAssemblyReference.cache
+C:\_GitHub\BR5\STAFix24_BR5\TimerJobs\bin\Debug\STAFix24.BR5.TimerJobs.dll
+C:\_GitHub\BR5\STAFix24_BR5\TimerJobs\bin\Debug\STAFix24.BR5.TimerJobs.pdb
+C:\_GitHub\BR5\STAFix24_BR5\TimerJobs\obj\Debug\STAFix24.BR5.TimerJobs.dll
+C:\_GitHub\BR5\STAFix24_BR5\TimerJobs\obj\Debug\STAFix24.BR5.TimerJobs.pdb

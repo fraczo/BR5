@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="9ccc60a3-0584-483f-8edb-bbae84d6f93d" Scope="Web" Title="Biuromagda_CustomActions">
+  <ElementManifests>
+    <ElementManifest Location="SiteMenuActions\Elements.xml" />
+  </ElementManifests>
+</Feature>

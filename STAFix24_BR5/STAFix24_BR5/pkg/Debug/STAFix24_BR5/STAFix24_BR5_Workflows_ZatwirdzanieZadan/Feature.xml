@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="STAFix24_BR5 WF Zatwierdzanie zadań" Id="152ac469-1efd-4e10-84bf-59a94bb7d10d" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="ZatwierdzenieZadania\Elements.xml" />
+  </ElementManifests>
+</Feature>

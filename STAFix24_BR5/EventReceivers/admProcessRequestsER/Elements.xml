@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers  ListUrl="Lists/admProcessRequests">
+      <Receiver>
+        <Name>EventReceiver1ItemAdded</Name>
+        <Type>ItemAdded</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>admProcessRequests_EventReceiver.EventReceiver1</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  <Receiver>
+<Name>admProcessRequestsERItemAdding</Name>
+<Type>ItemAdding</Type>
+<Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+<Class>admProcessRequests_EventReceiver.EventReceiver1</Class>
+<SequenceNumber>1000</SequenceNumber>
+</Receiver>
+<Receiver>
+<Name>admProcessRequestsERItemUpdating</Name>
+<Type>ItemUpdating</Type>
+<Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+<Class>admProcessRequests_EventReceiver.EventReceiver1</Class>
+<SequenceNumber>1000</SequenceNumber>
+</Receiver>
+</Receivers>
+</Elements>

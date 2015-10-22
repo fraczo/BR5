@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="STAFix24_BR5 CA AkcjeWitryny" Id="14d4261e-480a-421d-99f1-d60ec2b7f175" Scope="Web">
+  <ElementManifests>
+    <ElementManifest Location="AkcjeWitrynyMenu\Elements.xml" />
+  </ElementManifests>
+</Feature>

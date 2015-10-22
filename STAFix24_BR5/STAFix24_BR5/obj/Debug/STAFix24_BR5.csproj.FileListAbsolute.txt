@@ -1,0 +1,5 @@
+C:\_GitHub\BR5\STAFix24_BR5\STAFix24_BR5\bin\Debug\STAFix24.BR5.dll
+C:\_GitHub\BR5\STAFix24_BR5\STAFix24_BR5\bin\Debug\STAFix24.BR5.pdb
+C:\_GitHub\BR5\STAFix24_BR5\STAFix24_BR5\obj\Debug\STAFix24_BR5.csprojResolveAssemblyReference.cache
+C:\_GitHub\BR5\STAFix24_BR5\STAFix24_BR5\obj\Debug\STAFix24.BR5.dll
+C:\_GitHub\BR5\STAFix24_BR5\STAFix24_BR5\obj\Debug\STAFix24.BR5.pdb

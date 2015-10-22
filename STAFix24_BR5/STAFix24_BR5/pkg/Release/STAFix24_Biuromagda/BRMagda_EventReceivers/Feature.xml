@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="admProcessRequest.OnCreate, tabZadania.OnUpdate" Id="60f40776-08ba-4e8a-b947-3c10eca52833" Scope="Web" Title="Biuromagda_EventReceivers">
+  <ElementManifests>
+    <ElementManifest Location="SiteAssets\Elements.xml" />
+    <ElementFile Location="SiteAssets\Templates\DW-Przelew.pdf" />
+    <ElementFile Location="SiteAssets\Templates\DW-Przelew-color.pdf" />
+    <ElementFile Location="SiteAssets\Templates\DW-ZUS.pdf" />
+    <ElementFile Location="SiteAssets\Templates\DW-Podatek.pdf" />
+    <ElementManifest Location="admProcessRequestsER\Elements.xml" />
+    <ElementManifest Location="tabZadaniaER\Elements.xml" />
+    <ElementManifest Location="dicUrzedySkarboweER\Elements.xml" />
+    <ElementManifest Location="tabWiadomosciER\Elements.xml" />
+    <ElementManifest Location="tabKlienciER\Elements.xml" />
+    <ElementManifest Location="tabProceduryER\Elements.xml" />
+    <ElementManifest Location="tabStratyZLatUbieglych\Elements.xml" />
+    <ElementManifest Location="tabDochodyWspolnikow\Elements.xml" />
+    <ElementManifest Location="tabDochodyZInnychSpolek\Elements.xml" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2C8ECD80-A047-4795-99B3-C0EFC6961A9E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>STAFix24.BR5.BLL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\ISAPI\Microsoft.SharePoint.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admProcessRequests.cs" />
+    <Compile Include="admSetup.cs" />
+    <Compile Include="dicBiura.cs" />
+    <Compile Include="dicOddzialyZUS.cs" />
+    <Compile Include="dicOperatorzy.cs" />
+    <Compile Include="dicSerwisy.cs" />
+    <Compile Include="dicSzablonyKomunikacji.cs" />
+    <Compile Include="dicTerminyPlatnosci.cs" />
+    <Compile Include="dicUrzedySkarbowe.cs" />
+    <Compile Include="ElasticEmail.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="Models\Markery.cs" />
+    <Compile Include="Models\Operator.cs" />
+    <Compile Include="Models\StatusZadania.cs" />
+    <Compile Include="SPEmail.cs" />
+    <Compile Include="intBuforWiadomosci.cs" />
+    <Compile Include="libDokumenty.cs" />
+    <Compile Include="Models\BiuroRachunkowe.cs" />
+    <Compile Include="Models\Flagi.cs" />
+    <Compile Include="Models\Klient.cs" />
+    <Compile Include="Models\KontaKlienta.cs" />
+    <Compile Include="Models\KontaZUS.cs" />
+    <Compile Include="Models\PrzeterminowanaFaktura.cs" />
+    <Compile Include="Models\UrzadSkarbowy.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SPFieldUseritem.cs" />
+    <Compile Include="tabKartyKontrolne.cs" />
+    <Compile Include="tabKlienci.cs" />
+    <Compile Include="tabOkresy.cs" />
+    <Compile Include="tabProcedury.cs" />
+    <Compile Include="tabSzablonyWiadomosci.cs" />
+    <Compile Include="tabUrzedySkarbowe.cs" />
+    <Compile Include="tabWiadomosci.cs" />
+    <Compile Include="tabZadania.cs" />
+    <Compile Include="Tools.cs" />
+    <Compile Include="WorkflowHelpers.cs" />
+    <Compile Include="Workflows.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="key.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

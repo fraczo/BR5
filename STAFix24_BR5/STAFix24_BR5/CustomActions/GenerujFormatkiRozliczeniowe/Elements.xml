@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="984c94f0-affd-4e1d-9b08-b0d7b52ce021"
+                Title="Generuj formatki"
+                Description="Generuje formatki rozliczeniowe dla wszystkich aktywnych klientów"
+                GroupId="SiteActions"
+                ImageUrl="/_layouts/images/Settings.gif"
+                Location="Microsoft.SharePoint.StandardMenu"
+                Sequence="500">
+    <UrlAction Url="~site/Lists/admProcessRequests/NewForm.aspx?ContentTypeId=0x010012C56DEF8E3B1A45B66E8FB2ED3FFC130100F420C4EF5478E9458D344C3F69613EE9"/>
+  </CustomAction>
+
+  <CustomAction Description="Generuje formatki rozliczeniowe dla wybranego klienta"
+            Id="B54928AB-4B08-419D-AAB8-99B1E1140582"
+            GroupId="SiteActions"
+            ImageUrl="/_layouts/images/Settings.gif"
+            Location="Microsoft.SharePoint.StandardMenu"
+            Sequence="501"
+            Title="Generuj formatki dla klienta" >
+    <UrlAction Url="~site/Lists/admProcessRequests/NewForm.aspx?ContentTypeId=0x010012C56DEF8E3B1A45B66E8FB2ED3FFC1302002A1C7949E48ADA4D9326D531228D78C1"/>
+  </CustomAction>
+</Elements>

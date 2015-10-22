@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="STAFix24_BR5 CA Generowanie formatek rozliczeniowych" Id="7811db6b-aca6-44e6-8a40-f197c0caf4d1" Scope="Web">
+  <ElementManifests>
+    <ElementManifest Location="GenerujFormatkiRozliczeniowe\Elements.xml" />
+  </ElementManifests>
+</Feature>

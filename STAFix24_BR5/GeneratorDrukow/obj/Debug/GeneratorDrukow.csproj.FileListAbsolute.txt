@@ -1,0 +1,14 @@
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\GeneratorDrukow\bin\Debug\BRMagda.GeneratorDrukow.dll
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\GeneratorDrukow\bin\Debug\BRMagda.GeneratorDrukow.pdb
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\GeneratorDrukow\obj\Debug\GeneratorDrukow.csprojResolveAssemblyReference.cache
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\GeneratorDrukow\obj\Debug\BRMagda.GeneratorDrukow.dll
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\GeneratorDrukow\obj\Debug\BRMagda.GeneratorDrukow.pdb
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\GeneratorDrukow\bin\Debug\BRMagda.PdfSharp.dll
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\GeneratorDrukow\bin\Debug\BRMagda.PdfSharp.pdb
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\GeneratorDrukow\bin\Debug\BRMagda.PdfSharp.xml
+C:\_GitHub\Biuromagda\STAFix24_Biuromagda\GeneratorDrukow\bin\Debug\de\BRMagda.PdfSharp.resources.dll
+C:\_GitHub\BR5\STAFix24_BR5\GeneratorDrukow\obj\Debug\GeneratorDrukow.csprojResolveAssemblyReference.cache
+C:\_GitHub\BR5\STAFix24_BR5\GeneratorDrukow\bin\Debug\STAFix24.BR5.GeneratorDrukow.dll
+C:\_GitHub\BR5\STAFix24_BR5\GeneratorDrukow\bin\Debug\STAFix24.BR5.GeneratorDrukow.pdb
+C:\_GitHub\BR5\STAFix24_BR5\GeneratorDrukow\obj\Debug\STAFix24.BR5.GeneratorDrukow.dll
+C:\_GitHub\BR5\STAFix24_BR5\GeneratorDrukow\obj\Debug\STAFix24.BR5.GeneratorDrukow.pdb

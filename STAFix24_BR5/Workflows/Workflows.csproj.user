@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SharePointSiteUrl>http://spf2010/sites/biuromagda/</SharePointSiteUrl>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{BB1F664B-9266-4fd6-B973-E1E44974B511}">
+        <ProjectItemStore Id="{d03c6008-5ea7-445d-b8ce-45b9fe070301}">
+          <DisplayName>Obsługa wiadomości</DisplayName>
+          <HistoryList>Workflow History</HistoryList>
+          <HistoryListGuid>{be47a895-7c8e-40c2-884f-32b6a1eed32b}</HistoryListGuid>
+          <TaskList>Tasks</TaskList>
+          <TaskListGuid>{33dea7f3-7394-40d9-82c0-09c586b26ab7}</TaskListGuid>
+          <AutoAssociate>true</AutoAssociate>
+          <ManualStart>true</ManualStart>
+          <ListURL>http://spf2010/sites/biuromagda/Lists/tabWiadomosci/AllItems.aspx</ListURL>
+          <TargetList>Wiadomości</TargetList>
+          <TargetListGuid>{69260860-bd31-4be1-8ad7-45f5d86c2906}</TargetListGuid>
+          <StartOnCreate>false</StartOnCreate>
+          <StartOnChange>false</StartOnChange>
+        </ProjectItemStore>
+        <ProjectItemStore Id="{d711dbaf-91fe-4e8d-99a5-b850ec9b60b9}">
+          <DisplayName>Zatwierdzenie zadania</DisplayName>
+          <HistoryList>Workflow History</HistoryList>
+          <HistoryListGuid>{7f19a9a1-6997-47fb-9e20-70fea625b6a9}</HistoryListGuid>
+          <TaskList>Tasks</TaskList>
+          <TaskListGuid>{ba6228e1-34d1-4827-bff7-9f0a3269471f}</TaskListGuid>
+          <AutoAssociate>true</AutoAssociate>
+          <ManualStart>false</ManualStart>
+          <ListURL>http://spf2010/sites/biuromagda/Lists/tabZadania/AllItems.aspx</ListURL>
+          <TargetList>Zadania</TargetList>
+          <TargetListGuid>{317091c3-b3c5-4da7-8872-b8ad5337fed4}</TargetListGuid>
+          <StartOnCreate>false</StartOnCreate>
+          <StartOnChange>false</StartOnChange>
+        </ProjectItemStore>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

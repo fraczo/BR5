@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="87a51bef-491d-4dfb-928a-4f9b712117e4" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="BRMagda.BLL.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="BRMagda.GeneratorDrukow.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="BRMagda.PdfSharp.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="BRMagda.TimerJobs.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="BRMagda.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="BRMagda.EventReceivers.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="BRMagda.Workflows.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Images\Biuromagda\SETTINGS.GIF" />
+    <TemplateFile Location="Images\Biuromagda\SETTINGS16.GIF" />
+    <TemplateFile Location="Images\Biuromagda\SETTINGS32.GIF" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="BRMagda_EventReceivers\Feature.xml" />
+    <FeatureManifest Location="BRMagda_CustomActions\Feature.xml" />
+    <FeatureManifest Location="BRMagda_Workflows\Feature.xml" />
+    <FeatureManifest Location="BRMagda_ObslugaWiadomosciTJ\Feature.xml" />
+  </FeatureManifests>
+</Solution>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <!--<CustomAction Description="Generuje formatki rozliczeniowe dla wszystkich aktywnych klientów"
+              Id="STAFIX.GFR"
+              GroupId="SiteActions"
+              ImageUrl="/_layouts/images/Settings.gif"
+              Location="Microsoft.SharePoint.StandardMenu"
+              Sequence="500"
+              Title="Generuj formatki" >
+    <UrlAction Url="~site/Lists/admProcessRequests/NewForm.aspx?ContentTypeId=0x010012C56DEF8E3B1A45B66E8FB2ED3FFC130100F420C4EF5478E9458D344C3F69613EE9"/>
+  </CustomAction>
+  
+  <CustomAction Description="Generuje formatki rozliczeniowe dla wybranego klienta"
+            Id="STAFIX.GFRK"
+            GroupId="SiteActions"
+            ImageUrl="/_layouts/images/Settings.gif"
+            Location="Microsoft.SharePoint.StandardMenu"
+            Sequence="501"
+            Title="Generuj formatki dla klienta" >
+    <UrlAction Url="~site/Lists/admProcessRequests/NewForm.aspx?ContentTypeId=0x010012C56DEF8E3B1A45B66E8FB2ED3FFC1302002A1C7949E48ADA4D9326D531228D78C1"/>
+  </CustomAction>-->
+
+  <CustomAction Description="Uruchamia proces obsługi wiadomości oczekujących w buforze"
+          Id="STAFIX.SNDMAIL"
+          GroupId="SiteActions"
+          ImageUrl="/_layouts/images/Settings.gif"
+          Location="Microsoft.SharePoint.StandardMenu"
+          Sequence="505"
+          Title="Wyślij oczekujące wiadomości" >
+    <UrlAction Url="~site/Lists/admProcessRequests/NewForm.aspx?ContentTypeId=0x010012C56DEF8E3B1A45B66E8FB2ED3FFC13004A6B5687CE018340ACD25ADD6680C511008473491BA4FEA645B1AE28ECD30A52FE"/>
+  </CustomAction>
+  
+  <CustomAction Description="Uruchamia proces akceptacji zadań audytora"
+          Id="STAFIX.MANAGEADO"
+          GroupId="SiteActions"
+          ImageUrl="/_layouts/images/Settings.gif"
+          Location="Microsoft.SharePoint.StandardMenu"
+          Sequence="506"
+          Title="Akceptacja zadań audytora" >
+    <UrlAction Url="~site/Lists/admProcessRequests/NewForm.aspx?ContentTypeId=0x010012C56DEF8E3B1A45B66E8FB2ED3FFC1300AA205DBEB9AD9A4DB207D7B6F0CCD47D0033AB3EB3599C754F98C5CE4AA4D6BA4E"/>
+  </CustomAction>
+
+
+
+  <CustomAction Description="Importuje informacje o wystawionych fakturach"
+      Id="STAFIX.IFZO"
+      GroupId="SiteActions"
+      ImageUrl="/_layouts/images/Settings.gif"
+      Location="Microsoft.SharePoint.StandardMenu"
+      Sequence="510"
+      Title="Import faktur za obsługę" >
+    <UrlAction Url="~site/Lists/admProcessRequests/NewForm.aspx?ContentTypeId=0x010012C56DEF8E3B1A45B66E8FB2ED3FFC130700BF6BE6369EB2604F939F6D5DEF7091A1"/>
+  </CustomAction>
+  
+  <CustomAction Description="Importuje pliki z fakturami do formatek RBR"
+          Id="STAFIX.IFE"
+          GroupId="SiteActions"
+          ImageUrl="/_layouts/images/Settings.gif"
+          Location="Microsoft.SharePoint.StandardMenu"
+          Sequence="511"
+          Title="Import faktur elektronicznych" >
+    <UrlAction Url="~site/Lists/admProcessRequests/NewForm.aspx?ContentTypeId=0x010012C56DEF8E3B1A45B66E8FB2ED3FFC130500B80483F07C99C44BB0D517448DC9D740"/>
+  </CustomAction>
+
+  <CustomAction Description="Przygotowuje informacje o zadłużeniu w buforze wiadomości"
+      Id="STAFIX.IFZO"
+      GroupId="SiteActions"
+      ImageUrl="/_layouts/images/Settings.gif"
+      Location="Microsoft.SharePoint.StandardMenu"
+      Sequence="530"
+      Title="Import przeterminowanych należności" >
+    <UrlAction Url="~site/Lists/admProcessRequests/NewForm.aspx?ContentTypeId=0x010012C56DEF8E3B1A45B66E8FB2ED3FFC1306006C0A55CB2F6F76458D74866D381AAAC4"/>
+  </CustomAction>
+
+  <!--<CustomAction Description="Generuje korespondencję seryjną do klientów"
+    Id="STAFIX.IFZO"
+    GroupId="SiteActions"
+    ImageUrl="/_layouts/images/Settings.gif"
+    Location="Microsoft.SharePoint.StandardMenu"
+    Sequence="531"
+    Title="Import bufora wiadomości" >
+    <UrlAction Url="~site/Lists/admProcessRequests/NewForm.aspx?ContentTypeId=0x010012C56DEF8E3B1A45B66E8FB2ED3FFC130400E4650226B89B4B4DA2AB66E302443A8D"/>
+  </CustomAction>-->
+
+  <CustomAction Description="Importuje klientów zakładając nowe kartoteki i słowniki"
+              Id="STAFIX.IK"
+              GroupId="SiteActions"
+              ImageUrl="/_layouts/images/Settings.gif"
+              Location="Microsoft.SharePoint.StandardMenu"
+              Sequence="550"
+              Title="Import listy klientów" >
+    <UrlAction Url="~site/Lists/admProcessRequests/NewForm.aspx?ContentTypeId=0x010012C56DEF8E3B1A45B66E8FB2ED3FFC130300FA662D15DFD48A4AACD149B751A021E8"/>
+  </CustomAction>
+  
+</Elements>

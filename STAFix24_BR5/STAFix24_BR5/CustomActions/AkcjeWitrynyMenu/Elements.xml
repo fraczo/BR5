@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="a664bee3-5bc6-47a3-8ef7-81bb118c2d37" Title="Słowniki"
+    Description="Wykaz słowników zdefiniowanych w systemie"
+    GroupId="SiteActions"
+    ImageUrl="/_layouts/images/Links.gif"
+    Location="Microsoft.SharePoint.StandardMenu"
+    Sequence="510">
+    <UrlAction Url="~site/SitePages/S%c5%82owniki.aspx"/>
+  </CustomAction>
+
+  <CustomAction Id="EA84D243-52CB-4922-A2C1-21CAEB359217" Title="Kolejka wiadomości"
+  Description="Lista wiadomości wysłanych i oczekujących na wysyłkę"
+  GroupId="SiteActions"
+  ImageUrl="/_layouts/images/Search.gif"
+  Location="Microsoft.SharePoint.StandardMenu"
+  Sequence="510">
+    <UrlAction Url="~site/Lists/tabWiadomosci"/>
+  </CustomAction>
+</Elements>
+
+
+
+

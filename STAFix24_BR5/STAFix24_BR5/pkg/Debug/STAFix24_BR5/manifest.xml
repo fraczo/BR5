@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="1e96213e-4c6f-48a5-afd2-106a06e268a8" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="STAFix24.BR5.BLL.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="STAFix24.BR5.PdfSharp.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="STAFix24.BR5.GeneratorDrukow.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="STAFix24.BR5.DAL.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="STAFix24.BR5.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="STAFix24.BR5.Workflows.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="STAFix24.BR5.EventReceivers.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Images\STAFix24_BR5\SETTINGS.GIF" />
+    <TemplateFile Location="Images\STAFix24_BR5\SETTINGS16.GIF" />
+    <TemplateFile Location="Images\STAFix24_BR5\SETTINGS32.GIF" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="STAFix24_BR5_CustomActions_ObslugaKolejkiWiadomosci\Feature.xml" />
+    <FeatureManifest Location="STAFix24_BR5_CustomActions_GenerowanieFormatekRozliczeniowych\Feature.xml" />
+    <FeatureManifest Location="STAFix24_BR5_Workflows_ObslugaWiadomosci\Feature.xml" />
+    <FeatureManifest Location="STAFix24_BR5_EventReceivers\Feature.xml" />
+    <FeatureManifest Location="STAFix24_BR5_Workflows_ZatwirdzanieZadan\Feature.xml" />
+    <FeatureManifest Location="STAFix24_BR5_CustomActions_AkcjeWitryny\Feature.xml" />
+  </FeatureManifests>
+</Solution>

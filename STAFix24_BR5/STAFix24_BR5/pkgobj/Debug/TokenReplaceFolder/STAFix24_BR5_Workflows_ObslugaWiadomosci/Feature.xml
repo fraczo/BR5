@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="STAFix24_BR5 WF Obsługa wiadomości" Id="0e1e2f06-6c50-4f48-af77-3ba06d5fab92" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="ObslugaWiadomosci\Elements.xml" />
+  </ElementManifests>
+</Feature>
